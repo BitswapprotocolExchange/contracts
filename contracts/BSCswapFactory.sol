@@ -3,7 +3,7 @@
 pragma solidity =0.6.12;
 
 import './interfaces/IBSCswapFactory.sol';
-import './BSCswapPair.sol';
+import './BitswapPair.sol';
 
 contract BSCswapFactory is IBSCswapFactory {
     address public override feeTo;
